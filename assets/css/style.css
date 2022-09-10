@@ -1,0 +1,41 @@
+.container{
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    position: relative;
+}
+.container img{
+    width: 40vw;
+    height: 40vw;
+}
+#hour {
+    position: absolute;
+    top: 26%;
+    left: 48.9%;
+    width: 2%;
+    height: 23%;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#minute {
+    position: absolute;
+    top: 15%;
+    left: 48.8%;
+    width: 2%;
+    height: 35%;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#second {
+    position: absolute;
+    top: 9%;
+    left: 49.4%;
+    width: 1%;
+    height: 41%;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
